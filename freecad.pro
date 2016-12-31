@@ -7,7 +7,9 @@ TARGET = freecad
 INCLUDEPATH += . /usr/include/python2.7/ ./Base
 
 CONFIG += c++11
-
+LIBS +=  -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7
+LIBS +=  -L/usr/lib/x86_64-linux-gnu -lXdmf
+LIBS +=  -lz -lxerces-c -lboost_system -lboost_regex
 
 # Input
 HEADERS += FCConfig.h \
