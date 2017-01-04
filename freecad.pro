@@ -18,6 +18,7 @@ RCC_DIR = .qrc
 
 # Input
 HEADERS += FCConfig.h \
+           testwriter.h \
            Base/Axis.h \
            Base/AxisPy.h \
            Base/Base64.h \
@@ -140,10 +141,11 @@ HEADERS += FCConfig.h \
            CXX/Python3/ExtensionTypeBase.hxx \
            CXX/Python3/IndirectPythonInterface.hxx \
            CXX/Python3/Objects.hxx \
-           CXX/Python3/PythonType.hxx
+           CXX/Python3/PythonType.hxx 
 #LEXSOURCES += Base/QuantityParser.l
 #YACCSOURCES += Base/QuantityParser.y
 SOURCES += main.cpp \
+           testwriter.cpp \
            Base/Axis.cpp \
            Base/AxisPy.cpp \
            Base/AxisPyImp.cpp \
