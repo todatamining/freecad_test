@@ -26,6 +26,7 @@
 
 #include <QObject>
 #include <boost/function.hpp>
+#define GuiExport
 
 class QAction;
 
