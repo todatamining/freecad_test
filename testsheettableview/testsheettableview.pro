@@ -22,7 +22,7 @@ INCLUDEPATH += .
 LIBS +=  -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7
 LIBS +=  -L/usr/lib/x86_64-linux-gnu -lXdmf
 LIBS +=  -lz -lxerces-c -lboost_system -lboost_regex -lboost_signals
-
+LIBS +=  -L/usr/lib/x86_64-linux-gnu/ -lCoin
 
 
 
