@@ -4,6 +4,7 @@ INCLUDEPATH += /usr/include/python2.7/ ../  ./
 #INCLUDEPATH+=./Gui
 #INCLUDEPATH+=./App
 #INCLUDEPATH+=./Spreadsheet
+INCLUDEPATH += ../CXX ../Base ../Build
 
 CONFIG+=c++14
 QT+=xml
