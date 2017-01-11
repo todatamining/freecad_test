@@ -31,6 +31,8 @@
 #endif
 
 class QMainWindow;
+#define io_connect_t int
+#define natural_t int
 
 
 #ifdef _USE_3DCONNEXION_SDK
