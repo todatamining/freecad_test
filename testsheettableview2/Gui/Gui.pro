@@ -116,7 +116,7 @@ HEADERS += Action.h \
            ReportView.h \
            SceneInspector.h \
            Selection.h \
-           SelectionFilter.h \
+#           SelectionFilter.h \
            SelectionObject.h \
            SelectionView.h \
            SoAxisCrossKit.h \
@@ -233,15 +233,15 @@ HEADERS += Action.h \
            TaskView/TaskSelectLinkProperty.h \
            TaskView/TaskView.h \
            TaskView/TaskWatcher.h \
-           iisTaskPanel/src/iisfreecadscheme.h \
-           iisTaskPanel/src/iisiconlabel.h \
-           iisTaskPanel/src/iistaskbox.h \
-           iisTaskPanel/src/iistaskgroup.h \
-           iisTaskPanel/src/iistaskheader.h \
-           iisTaskPanel/src/iistaskpanel.h \
-           iisTaskPanel/src/iistaskpanel_global.h \
-           iisTaskPanel/src/iistaskpanelscheme.h \
-           iisTaskPanel/src/iiswinxptaskpanelscheme.h \
+#           iisTaskPanel/src/iisfreecadscheme.h \
+#           iisTaskPanel/src/iisiconlabel.h \
+#           iisTaskPanel/src/iistaskbox.h \
+#           iisTaskPanel/src/iistaskgroup.h \
+#           iisTaskPanel/src/iistaskheader.h \
+#           iisTaskPanel/src/iistaskpanel.h \
+#           iisTaskPanel/src/iistaskpanel_global.h \
+#           iisTaskPanel/src/iistaskpanelscheme.h \
+#           iisTaskPanel/src/iiswinxptaskpanelscheme.h \
            QSint/actionpanel/actionbox.h \
            QSint/actionpanel/actiongroup.h \
            QSint/actionpanel/actionlabel.h \
@@ -261,9 +261,9 @@ HEADERS += Action.h \
            Quarter/devices/SpaceNavigatorDevice.h \
            Quarter/eventhandlers/DragDropHandler.h \
            Quarter/eventhandlers/EventFilter.h \
-           Quarter/eventhandlers/FocusHandler.h \
-           iisTaskPanel/tests/styles/styles.h \
-           iisTaskPanel/tests/test/test.h
+           Quarter/eventhandlers/FocusHandler.h 
+#           iisTaskPanel/tests/styles/styles.h \
+#           iisTaskPanel/tests/test/test.h
 FORMS += AboutApplication.ui \
          Clipping.ui \
          DemoMode.ui \
@@ -315,11 +315,11 @@ FORMS += AboutApplication.ui \
          TextureMapping.ui \
          TaskView/TaskAppearance.ui \
          TaskView/TaskEditControl.ui \
-         TaskView/TaskSelectLinkProperty.ui \
-         iisTaskPanel/tests/styles/styles.ui \
-         iisTaskPanel/tests/test/test.ui
-LEXSOURCES += SelectionFilter.l
-YACCSOURCES += SelectionFilter.y
+         TaskView/TaskSelectLinkProperty.ui 
+#         iisTaskPanel/tests/styles/styles.ui \
+#         iisTaskPanel/tests/test/test.ui
+#LEXSOURCES += SelectionFilter.l
+#YACCSOURCES += SelectionFilter.y
 SOURCES += Action.cpp \
            ActionFunction.cpp \
            ActiveObjectList.cpp \
@@ -406,7 +406,7 @@ SOURCES += Action.cpp \
            InputField.cpp \
            InputVector.cpp \
            InventorNavigationStyle.cpp \
-           lex.SelectionFilter.c \
+#           lex.SelectionFilter.c \
            Macro.cpp \
            MainWindow.cpp \
            ManualAlignment.cpp \
@@ -438,8 +438,8 @@ SOURCES += Action.cpp \
            resource.cpp \
            SceneInspector.cpp \
            Selection.cpp \
-           SelectionFilter.cpp \
-           SelectionFilter.tab.c \
+#           SelectionFilter.cpp \
+#           SelectionFilter.tab.c \
            SelectionObject.cpp \
            SelectionObjectPyImp.cpp \
            SelectionView.cpp \
@@ -524,8 +524,8 @@ SOURCES += Action.cpp \
            WorkbenchFactory.cpp \
            WorkbenchManager.cpp \
            WorkbenchPyImp.cpp \
-           3Dconnexion/GuiApplicationNativeEventAwareMac.cpp \
-           3Dconnexion/GuiApplicationNativeEventAwareWin32.cpp \
+#           3Dconnexion/GuiApplicationNativeEventAwareMac.cpp \
+#           3Dconnexion/GuiApplicationNativeEventAwareWin32.cpp \
            3Dconnexion/MouseParameters.cpp \
            DAGView/DAGFilter.cpp \
            DAGView/DAGModel.cpp \
@@ -567,14 +567,14 @@ SOURCES += Action.cpp \
            TaskView/TaskSelectLinkProperty.cpp \
            TaskView/TaskView.cpp \
            TaskView/TaskWatcher.cpp \
-           iisTaskPanel/src/iisfreecadscheme.cpp \
-           iisTaskPanel/src/iisiconlabel.cpp \
-           iisTaskPanel/src/iistaskbox.cpp \
-           iisTaskPanel/src/iistaskgroup.cpp \
-           iisTaskPanel/src/iistaskheader.cpp \
-           iisTaskPanel/src/iistaskpanel.cpp \
-           iisTaskPanel/src/iistaskpanelscheme.cpp \
-           iisTaskPanel/src/iiswinxptaskpanelscheme.cpp \
+#           iisTaskPanel/src/iisfreecadscheme.cpp \
+#           iisTaskPanel/src/iisiconlabel.cpp \
+#           iisTaskPanel/src/iistaskbox.cpp \
+#           iisTaskPanel/src/iistaskgroup.cpp \
+#           iisTaskPanel/src/iistaskheader.cpp \
+#           iisTaskPanel/src/iistaskpanel.cpp \
+#           iisTaskPanel/src/iistaskpanelscheme.cpp \
+#           iisTaskPanel/src/iiswinxptaskpanelscheme.cpp \
            QSint/actionpanel/actionbox.cpp \
            QSint/actionpanel/actiongroup.cpp \
            QSint/actionpanel/actionlabel.cpp \
@@ -586,17 +586,17 @@ SOURCES += Action.cpp \
            QSint/actionpanel/taskgroup_p.cpp \
            QSint/actionpanel/taskheader_p.cpp \
            QSint/actionpanel/winvistapanelscheme.cpp \
-           QSint/actionpanel/winxppanelscheme.cpp \
-           iisTaskPanel/tests/styles/main.cpp \
-           iisTaskPanel/tests/styles/styles.cpp \
-           iisTaskPanel/tests/test/main.cpp \
-           iisTaskPanel/tests/test/test.cpp
+           QSint/actionpanel/winxppanelscheme.cpp 
+#           iisTaskPanel/tests/styles/main.cpp \
+#           iisTaskPanel/tests/styles/styles.cpp \
+#           iisTaskPanel/tests/test/main.cpp \
+#           iisTaskPanel/tests/test/test.cpp
 RESOURCES += Icons/resource.qrc \
              Language/translation.qrc \
-             iisTaskPanel/src/iisTaskPanel.qrc \
-             QSint/actionpanel/schemes.qrc \
-             iisTaskPanel/tests/styles/styles.qrc \
-             iisTaskPanel/tests/test/test.qrc
+#             iisTaskPanel/src/iisTaskPanel.qrc \
+             QSint/actionpanel/schemes.qrc 
+#             iisTaskPanel/tests/styles/styles.qrc \
+#             iisTaskPanel/tests/test/test.qrc
 TRANSLATIONS += Language/FreeCAD.ts \
                 Language/FreeCAD_af.ts \
                 Language/FreeCAD_cs.ts \

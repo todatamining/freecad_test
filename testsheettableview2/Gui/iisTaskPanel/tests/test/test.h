@@ -8,7 +8,7 @@
 #ifndef TEST_H
 #define TEST_H
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include "ui_test.h"
 
 class test : public QMainWindow
