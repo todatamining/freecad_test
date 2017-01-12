@@ -1,7 +1,7 @@
 
 #include "PreCompiled.h"
 
-#include "Mod/Spreadsheet/App/PropertySheet.h"
+#include "App/PropertySheet.h"
 
 // inclusion of the generated files (generated out of PropertySheetPy.xml)
 #include "PropertySheetPy.h"

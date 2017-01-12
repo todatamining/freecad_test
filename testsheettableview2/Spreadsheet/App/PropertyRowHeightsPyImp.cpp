@@ -1,7 +1,7 @@
 
 #include "PreCompiled.h"
 
-#include "Mod/Spreadsheet/App/PropertyRowHeights.h"
+#include "App/PropertyRowHeights.h"
 
 // inclusion of the generated files (generated out of PropertyRowHeightsPy.xml)
 #include "PropertyRowHeightsPy.h"

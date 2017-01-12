@@ -1,7 +1,7 @@
 
 #include "PreCompiled.h"
 
-#include "Mod/Spreadsheet/App/PropertyColumnWidths.h"
+#include "App/PropertyColumnWidths.h"
 
 // inclusion of the generated files (generated out of PropertyColumnWidthsPy.xml)
 #include "PropertyColumnWidthsPy.h"
