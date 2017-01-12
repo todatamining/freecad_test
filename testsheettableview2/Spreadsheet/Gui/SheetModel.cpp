@@ -30,7 +30,7 @@
 
 #include <Gui/Application.h>
 #include "SheetModel.h"
-#include <Mod/Spreadsheet/App/Utils.h>
+#include <App/Utils.h>
 #include "../App/Sheet.h"
 #include <Gui/Command.h>
 #include <Base/Tools.h>

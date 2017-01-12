@@ -42,7 +42,7 @@
 #include <Gui/Application.h>
 #include <Gui/BitmapFactory.h>
 #include <Gui/Language/Translator.h>
-#include <Mod/Spreadsheet/App/Sheet.h>
+#include <App/Sheet.h>
 #include "Workbench.h"
 #include "ViewProviderSpreadsheet.h"
 #include "SpreadsheetView.h"

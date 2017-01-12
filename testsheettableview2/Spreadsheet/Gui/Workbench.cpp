@@ -36,9 +36,9 @@
 #include <Gui/Command.h>
 #include <QToolBar>
 #include "qtcolorpicker.h"
-#include "Mod/Spreadsheet/App/Sheet.h"
+#include "App/Sheet.h"
 #include <App/Range.h>
-#include "Mod/Spreadsheet/Gui/SpreadsheetView.h"
+#include "Gui/SpreadsheetView.h"
 
 using namespace Base;
 using namespace App;
