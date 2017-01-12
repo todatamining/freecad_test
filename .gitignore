@@ -1,3 +1,7 @@
 *.o
 moc_*
+qrc_*cpp
 Makefile
+lib*.so*
+ui_*.h
+ui_*.cpp

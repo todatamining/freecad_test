@@ -7,5 +7,6 @@ SUBDIRS = \
 	App  \
 	Base \
 	zipios++ \
-    Spreadsheet
+    Spreadsheet \
+    CXX
 

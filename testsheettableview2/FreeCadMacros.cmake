@@ -45,7 +45,7 @@ MACRO (fc_copy_sources target_name outpath)
 		file(TO_NATIVE_PATH "${outpath}/${it}" outfile)
 		get_filename_component(infile ${it} ABSOLUTE)
 		get_filename_component(outfile ${outfile} ABSOLUTE)
-		add_file_dependencies(${infile} ${outfile})
+        #ADD_FILE_DEPENDENCIES(${infile} ${outfile})
 		ADD_CUSTOM_COMMAND(
 			SOURCE    ${infile}
 			COMMAND   ${CMAKE_COMMAND}
@@ -67,7 +67,7 @@ MACRO (fc_target_copy_resource target_name inpath outpath)
 		file(TO_NATIVE_PATH "${outpath}/${it}" outfile)
 		get_filename_component(infile ${infile} ABSOLUTE)
 		get_filename_component(outfile ${outfile} ABSOLUTE)
-		add_file_dependencies(${infile} ${outfile})
+        #ADD_FILE_DEPENDENCIES(${infile} ${outfile})
 		ADD_CUSTOM_COMMAND(
 			SOURCE    ${infile}
 			COMMAND   ${CMAKE_COMMAND}
@@ -238,11 +238,11 @@ MACRO(SET_BIN_DIR ProjectName OutputName)
     else(WIN32)
         # FreeCADBase, SMDS, Driver, MEFISTO2 and area libs don't depend on parts from CMAKE_INSTALL_LIBDIR
         if(NOT ${ProjectName} MATCHES "^(FreeCADBase|SMDS|Driver|MEFISTO2|area)$")
-            if(${ARGC} STREQUAL 4)
-                set_target_properties(${ProjectName} PROPERTIES INSTALL_RPATH ${CMAKE_INSTALL_PREFIX}${ARGV3})
-            else(${ARGC} STREQUAL 4)
-                set_target_properties(${ProjectName} PROPERTIES INSTALL_RPATH ${CMAKE_INSTALL_LIBDIR})
-            endif()
+            #if(${ARGC} STREQUAL 4)
+            #    set_target_properties(${ProjectName} PROPERTIES INSTALL_RPATH ${CMAKE_INSTALL_PREFIX}${ARGV3})
+            #else(${ARGC} STREQUAL 4)
+            #    set_target_properties(${ProjectName} PROPERTIES INSTALL_RPATH ${CMAKE_INSTALL_LIBDIR})
+            #endif()
         endif()
     endif(WIN32)
 ENDMACRO(SET_BIN_DIR)
