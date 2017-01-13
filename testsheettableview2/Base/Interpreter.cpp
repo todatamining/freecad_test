@@ -34,7 +34,10 @@
 #include "Interpreter.h"
 #include "FileInfo.h"
 #include "Stream.h"
-#include "PyTools.h"
+extern "C"
+{
+    #include "PyTools.h"
+}
 #include "Exception.h"
 #include "PyObjectBase.h"
 #include <CXX/Extensions.hxx>

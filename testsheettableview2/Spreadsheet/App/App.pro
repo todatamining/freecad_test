@@ -4,27 +4,12 @@
 !include( ../../sheetview.pri ) {
     error( "Couldn't find the sheetview.pri file!" )
 }
+INCLUDEPATH += ../../Build
 
-QT+=widgets
-INCLUDEPATH+=/usr/include/python2.7/
-INCLUDEPATH+=../..
-INCLUDEPATH+=./Gui
-INCLUDEPATH+=..
-INCLUDEPATH+=./Spreadsheet
-CONFIG+=c++14
-QT+=xml
-QT+=printsupport
-QT+=uitools
-QT+=network
-QT+=opengl
-QT+=svg
-TEMPLATE = app
-TARGET = App
-INCLUDEPATH += .
+LIBS +=  -L../../CXX -lcxx
 LIBS +=  -L../../App -lapp
 LIBS +=  -L../../Base -lbase
 LIBS +=  -L../../Gui -lGui
-LIBS +=  -L../../CXX -lcxx
 LIBS +=  -L../../zipios++ -lzipios++
 
 # Input
