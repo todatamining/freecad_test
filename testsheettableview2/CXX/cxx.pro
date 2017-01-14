@@ -2,7 +2,7 @@
     error( "Couldn't find the sheetview.pri file!" )
 }
 
-CONFIG += staticlib
+#CONFIG += staticlib
 
 SOURCES +=  \
             cxxextensions.c \
