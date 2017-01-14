@@ -2,6 +2,9 @@
     error( "Couldn't find the sheetview.pri file!" )
 }
 
+CONFIG += staticlib
+LIBS +=  -LPython2 -lpy2
+
 SOURCES +=  \
             cxxextensions.c \
             cxx_extensions.cxx \

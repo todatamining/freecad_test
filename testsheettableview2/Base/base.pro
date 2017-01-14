@@ -4,7 +4,7 @@
 
 INCLUDEPATH += ../Build
 
-SOURCES += *.cpp
+SOURCES += *.cpp *.c
 
 HEADERS += *.h 
 

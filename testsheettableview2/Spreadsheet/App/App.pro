@@ -11,6 +11,8 @@ LIBS +=  -L../../App -lapp
 LIBS +=  -L../../Base -lbase
 LIBS +=  -L../../Gui -lGui
 LIBS +=  -L../../zipios++ -lzipios++
+TEMPLATE = lib
+TARGET = app
 
 # Input
 HEADERS += Cell.h \

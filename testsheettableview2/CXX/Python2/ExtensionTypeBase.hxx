@@ -37,7 +37,6 @@
 
 #ifndef __CXX_ExtensionTypeBase__h
 #define __CXX_ExtensionTypeBase__h
-
 namespace Py
 {
     // Class PythonExtension is what you inherit from to create

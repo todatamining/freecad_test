@@ -9,6 +9,11 @@ is provided on an as is basis, without warranties of any kind.
 */
 
 #include <FCConfig.h>
+
+#ifdef __cplusplus
+extern "C" {             /* a C library, but callable from C++ */
+#endif     
+
 #include "PyTools.h"
 
 #include <stdarg.h>
@@ -628,4 +633,6 @@ PP_Debug_Bytecode(PyObject *codeobject, PyObject *moddict)
 
 
 
-
+#ifdef __cplusplus
+}
+#endif     

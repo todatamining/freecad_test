@@ -34,8 +34,8 @@
 // DAMAGE.
 //
 //-----------------------------------------------------------------------------
-#include "CXX/Extensions.hxx"
-#include "CXX/Exception.hxx"
+#include "Extensions.hxx"
+#include "Exception.hxx"
 #include <assert.h>
 
 #ifdef PYCXX_DEBUG
