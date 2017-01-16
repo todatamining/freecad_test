@@ -25,8 +25,8 @@
 #ifndef SPREADSHEET_WORKBENCH_H
 #define SPREADSHEET_WORKBENCH_H
 
-#include <Gui/Workbench.h>
-
+#include <../../Gui/Workbench.h>
+#define SpreadsheetGuiExport
 class QtColorPicker;
 class QColor;
 

@@ -4,7 +4,7 @@
 !include( ../../sheetview.pri ) {
     error( "Couldn't find the sheetview.pri file!" )
 }
-INCLUDEPATH += ../../Build
+INCLUDEPATH += ../../Build ../..
 
 LIBS +=  -L../../CXX -lcxx
 LIBS +=  -L../../App -lapp
