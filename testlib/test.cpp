@@ -4,5 +4,6 @@
 using namespace std;
 int main()
 {
-    cout<< mult(10,20) <<endl;
+    Derive d;
+//    cout<< mult(10,20) <<endl;
 }

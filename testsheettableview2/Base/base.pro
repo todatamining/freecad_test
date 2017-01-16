@@ -6,7 +6,7 @@
 
 INCLUDEPATH += ../Build
 
-LIBS += -L../CXX -lcxx
+#LIBS += -L../CXX -lcxx
 
 SOURCES += *.cpp *.c
 
