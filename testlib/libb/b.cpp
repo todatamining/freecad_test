@@ -5,7 +5,3 @@ Base<T>::Base()
 {
 }
 
-BaseT::BaseT()
-{
-    cout<<"baseT"<<endl;
-}
