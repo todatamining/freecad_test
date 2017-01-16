@@ -11,3 +11,8 @@ Base<T>::Base()
 {
     cout<<"base"<<endl;
 }
+
+BaseT::BaseT()
+{
+    cout<<"baseT"<<endl;
+}

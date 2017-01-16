@@ -8,3 +8,9 @@ class Base
     public:
         Base();
 };
+
+class BaseT
+{
+    public:
+        BaseT();
+};

@@ -3,7 +3,7 @@
 
 int mult(int, int);
 
-class Derive: public Base<Derive>
+class Derive: public Base<int>
 {
 public:
     Derive();

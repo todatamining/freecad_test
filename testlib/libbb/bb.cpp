@@ -7,4 +7,5 @@ int mult(int a, int b)
 }
 
 Derive::Derive()
+    :Base<int>()
 {}
