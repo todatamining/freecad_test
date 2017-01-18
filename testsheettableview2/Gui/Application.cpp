@@ -414,9 +414,9 @@ Application::Application(bool GUIenabled)
         Py_INCREF(pSelectionModule);
         PyModule_AddObject(module, "Selection", pSelectionModule);
 
-        SelectionFilterPy::init_type();
-        Base::Interpreter().addType(SelectionFilterPy::type_object(),
-            pSelectionModule,"Filter");
+        ///////////////SelectionFilterPy::init_type();
+        ///////////////Base::Interpreter().addType(SelectionFilterPy::type_object(),
+        ///////////////    pSelectionModule,"Filter");
 
         Gui::TaskView::ControlPy::init_type();
         Py::Module(module).setAttr(std::string("Control"),

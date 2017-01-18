@@ -113,7 +113,7 @@ void TaskSelectLinkProperty::activate(void)
     // first clear the selection
     Gui::Selection().clearSelection();
     // set the gate for the filter 
-    Gui::Selection().addSelectionGate(new SelectionFilterGate(Filter));
+    //////////////////Gui::Selection().addSelectionGate(new SelectionFilterGate(Filter));
 
     // In case of LinkSub property 
     if (LinkSub) {

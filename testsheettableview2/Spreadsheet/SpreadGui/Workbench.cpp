@@ -36,7 +36,7 @@
 #include <Gui/Command.h>
 #include <QToolBar>
 #include "qtcolorpicker.h"
-#include "App/Sheet.h"
+#include "SpreadApp/Sheet.h"
 #include <App/Range.h>
 #include "SpreadGui/SpreadsheetView.h"
 

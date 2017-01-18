@@ -1313,25 +1313,25 @@ PyObject *SelectionSingleton::sAddSelectionGate(PyObject * /*self*/, PyObject *a
     char* filter;
     if (PyArg_ParseTuple(args, "s",&filter)) {
         PY_TRY {
-            Selection().addSelectionGate(new SelectionFilterGate(filter));
+            /////////////Selection().addSelectionGate(new SelectionFilterGate(filter));
             Py_Return;
         } PY_CATCH;
     }
 
     PyErr_Clear();
     PyObject* filterPy;
-    if (PyArg_ParseTuple(args, "O!",SelectionFilterPy::type_object(),&filterPy)) {
+    /*if (PyArg_ParseTuple(args, "O!",SelectionFilterPy::type_object(),&filterPy)) {
         PY_TRY {
-            Selection().addSelectionGate(new SelectionFilterGatePython(static_cast<SelectionFilterPy*>(filterPy)));
+            ////////////////Selection().addSelectionGate(new SelectionFilterGatePython(static_cast<SelectionFilterPy*>(filterPy)));
             Py_Return;
         } PY_CATCH;
-    }
+    }*/
 
     PyErr_Clear();
     PyObject* gate;
     if (PyArg_ParseTuple(args, "O",&gate)) {
         PY_TRY {
-            Selection().addSelectionGate(new SelectionGatePython(Py::Object(gate, false)));
+            //////////////////////Selection().addSelectionGate(new SelectionGatePython(Py::Object(gate, false)));
             Py_Return;
         } PY_CATCH;
     }

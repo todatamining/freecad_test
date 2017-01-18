@@ -2,7 +2,7 @@
     error( "Couldn't find the sheetview.pri file!" )
 }
 
-INCLUDEPATH += ../Spreadsheet/App/
+INCLUDEPATH += ../Spreadsheet/SpreadApp/
 
 SOURCES += *.cpp
 

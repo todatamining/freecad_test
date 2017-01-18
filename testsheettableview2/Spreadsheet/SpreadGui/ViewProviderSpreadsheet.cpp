@@ -35,7 +35,7 @@
 #include "ViewProviderSpreadsheet.h"
 #include "SpreadsheetView.h"
 
-#include <App/Sheet.h>
+#include <SpreadApp/Sheet.h>
 #include <App/Range.h>
 #include <App/Document.h>
 #include <Gui/BitmapFactory.h>

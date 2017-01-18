@@ -116,7 +116,7 @@ HEADERS += Action.h \
            ReportView.h \
            SceneInspector.h \
            Selection.h \
-#           SelectionFilter.h \
+           SelectionFilter.h \
            SelectionObject.h \
            SelectionView.h \
            SoAxisCrossKit.h \
@@ -438,7 +438,7 @@ SOURCES += Action.cpp \
            resource.cpp \
            SceneInspector.cpp \
            Selection.cpp \
-#           SelectionFilter.cpp \
+           SelectionFilter.cpp \
 #           SelectionFilter.tab.c \
            SelectionObject.cpp \
            SelectionObjectPyImp.cpp \
