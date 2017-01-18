@@ -4,8 +4,8 @@
 #ifndef SPREADSHEET_SHEETPY_H
 #define SPREADSHEET_SHEETPY_H
 
-#include <App/DocumentObjectPy.h>
-#include <App/Sheet.h>
+#include "App/DocumentObjectPy.h"
+#include "Sheet.h"
 #include <string>
 
 namespace Spreadsheet

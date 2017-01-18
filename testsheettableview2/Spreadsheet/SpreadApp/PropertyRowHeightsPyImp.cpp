@@ -1,7 +1,7 @@
 
 #include "PreCompiled.h"
 
-#include "App/PropertyRowHeights.h"
+#include "PropertyRowHeights.h"
 
 // inclusion of the generated files (generated out of PropertyRowHeightsPy.xml)
 #include "PropertyRowHeightsPy.h"

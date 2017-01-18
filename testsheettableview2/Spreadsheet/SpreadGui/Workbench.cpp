@@ -38,7 +38,7 @@
 #include "qtcolorpicker.h"
 #include "App/Sheet.h"
 #include <App/Range.h>
-#include "Gui/SpreadsheetView.h"
+#include "SpreadGui/SpreadsheetView.h"
 
 using namespace Base;
 using namespace App;

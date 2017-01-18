@@ -6,16 +6,16 @@
 }
 INCLUDEPATH += ../../Build ../..
 
-LIBS +=  -L../../CXX -lcxx
-LIBS +=  -L../../App -lapp
-LIBS +=  -L../../Base -lbase
-LIBS +=  -L../../Gui -lGui
-LIBS +=  -L../../zipios++ -lzipios++
 LIBS +=  -L../App -lapp
+LIBS +=  -L../../App -lapp
+LIBS +=  -L../../Gui -lGui
+LIBS +=  -L../../Base -lbase
+LIBS +=  -L../../CXX -lcxx
+LIBS +=  -L../../zipios++ -lzipios++
 
 
 TEMPLATE = lib
-TARGET = Gui
+TARGET = spreadgui
 
 # Input
 HEADERS += LineEdit.h \

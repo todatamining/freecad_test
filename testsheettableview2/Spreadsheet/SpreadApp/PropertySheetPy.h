@@ -5,7 +5,7 @@
 #define SPREADSHEET_PROPERTYSHEETPY_H
 
 #include <Base/PersistencePy.h>
-#include <App/PropertySheet.h>
+#include "PropertySheet.h"
 #include <string>
 
 namespace Spreadsheet

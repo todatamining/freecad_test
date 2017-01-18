@@ -25,8 +25,8 @@
 
 #include <boost/tokenizer.hpp>
 #include <Base/Exception.h>
-#include <App/Sheet.h>
-#include <App/PropertyStandard.h>
+#include "Sheet.h"
+#include "App/PropertyStandard.h"
 #include "Utils.h"
 #include <App/Range.h>
 
