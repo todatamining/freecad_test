@@ -25,7 +25,7 @@
 
 #include <QAbstractTableModel>
 #include <boost/signals/connection.hpp>
-#include <App/Utils.h>
+#include <SpreadApp/Utils.h>
 #include <App/Range.h>
 
 namespace Spreadsheet {

@@ -27,8 +27,8 @@
 #include <QHeaderView>
 #include <QKeyEvent>
 #include <boost/signals/connection.hpp>
-#include <App/Sheet.h>
-#include <App/Utils.h>
+#include <SpreadApp/Sheet.h>
+#include <SpreadApp/Utils.h>
 
 namespace SpreadsheetGui {
 

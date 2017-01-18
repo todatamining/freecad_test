@@ -7,12 +7,12 @@
 INCLUDEPATH += ../../Build ../..
 
 LIBS +=  -L../../CXX -lcxx
-LIBS +=  -L../../App -lapp
+#LIBS +=  -L../../App -lapp
 LIBS +=  -L../../Base -lbase
 LIBS +=  -L../../Gui -lGui
 LIBS +=  -L../../zipios++ -lzipios++
 TEMPLATE = lib
-TARGET = app
+TARGET = spreadapp
 
 # Input
 HEADERS += Cell.h \

@@ -37,7 +37,7 @@
 
 #include "SpreadsheetView.h"
 #include "SpreadsheetDelegate.h"
-#include <App/Sheet.h>
+#include <SpreadApp/Sheet.h>
 #include <App/Range.h>
 #include <Gui/MainWindow.h>
 #include <Gui/Application.h>
@@ -47,7 +47,7 @@
 #include <App/PropertyStandard.h>
 #include <Gui/Command.h>
 #include <boost/bind.hpp>
-#include <App/Utils.h>
+#include <SpreadApp/Utils.h>
 #include "qtcolorpicker.h"
 #include <LineEdit.h>
 

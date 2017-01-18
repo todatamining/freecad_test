@@ -1153,4 +1153,4 @@ void ColorPickerButton::paintEvent(QPaintEvent *e)
 }
 
 #include "moc_qtcolorpicker.cpp"
-//#include <moc_qtcolorpicker-internal.cpp>
+#include <moc_qtcolorpicker-internal.cpp>

@@ -30,8 +30,8 @@
 
 #include <Gui/Application.h>
 #include "SheetModel.h"
-#include <App/Utils.h>
-#include "../App/Sheet.h"
+#include <SpreadApp/Utils.h>
+#include "SpreadApp/Sheet.h"
 #include <Gui/Command.h>
 #include <Base/Tools.h>
 #include <boost/bind.hpp>

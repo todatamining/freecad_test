@@ -28,7 +28,7 @@
 
 #include <Gui/Command.h>
 #include <boost/bind.hpp>
-#include "../App/Utils.h"
+#include "SpreadApp/Utils.h"
 #include <App/Range.h>
 #include "SheetTableView.h"
 #include "LineEdit.h"

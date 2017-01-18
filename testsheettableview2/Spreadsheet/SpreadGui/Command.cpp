@@ -38,7 +38,7 @@
 # include <Gui/FileDialog.h>
 
 #include "SpreadsheetView.h"
-#include "../App/Sheet.h"
+#include "SpreadApp/Sheet.h"
 #include <App/Range.h>
 #include "ViewProviderSpreadsheet.h"
 #include "PropertiesDialog.h"

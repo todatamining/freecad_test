@@ -26,7 +26,7 @@
 #include <Gui/MDIView.h>
 #include <QHeaderView>
 #include "SheetModel.h"
-#include <App/Sheet.h>
+#include <SpreadApp/Sheet.h>
 
 class QSlider;
 class QAction;

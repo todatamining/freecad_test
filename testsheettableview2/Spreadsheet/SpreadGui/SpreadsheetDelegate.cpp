@@ -31,7 +31,7 @@
 #include "SpreadsheetDelegate.h"
 #include "LineEdit.h"
 #include <App/DocumentObject.h>
-#include <App/Sheet.h>
+#include <SpreadApp/Sheet.h>
 #include <Gui/ExpressionCompleter.h>
 
 using namespace SpreadsheetGui;
